@@ -14,7 +14,7 @@ module.exports = [
   {
     type: "Question",
     name: "ignoreDir",
-    message: "输入当前目录下忽略检索的文件夹，使用&&连接",
-    default: "node_modules&&.git"
+    message: "输入当前目录下忽略检索的文件夹，使用,连接",
+    default: "node_modules,.git"
   }
 ];
